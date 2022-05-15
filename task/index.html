@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Task manager</title><link rel="stylesheet" href="https://rohhthone.com/A/ro.css">
+  </head>
+  <body>
+    <style>
+      *{padding: 0; margin: 0;}
+      html{background-color: #141414;font-family:'Noton';font-size: 2.31vmax; color: #FFFFFF;}
+      body{display: flex;flex-direction: column;justify-content: space-around;align-items: center;}
+      form{display: flex; align-items: center; justify-content: space-between; background-color: rgba(255, 255, 255, 0.38); padding:0.7vmin 1.4vmin 0.5vmin 1.4vmin; margin: 0.51vmin; border-radius: 0.43vmin; width: 80vmin; height: 3vmin; box-shadow: -0.15vmin -0.15vmin 0.25vmin 0.174vmin #000000;}
+      header{display: flex;width: 80vmin;padding:0.7vmin 1.4vmin 0.5vmin 1.4vmin; background-color: rgba(255, 255, 255, 0.38);border-radius: 0 0 0.34vmin 0.34vmin;box-shadow: -0.15vmin -0.15vmin 0.25vmin 0.174vmin #000000; height: 3.4vmin;}
+      form input[type="submit"]{display: flex; align-items: center; justify-content: space-around; background-color: #141414; width: 2vmin;height: 2vmin; color: white; border: none; border-radius: 0.215vmin;color: rgba(255, 255, 255, 0.2); box-shadow:0vmin 0vmin 0.1vmin 0.1vmin #000000 inset; cursor: pointer;}
+      form:hover{box-shadow: -0.15vmin -0.15vmin 0.15vmin 0.074vmin #000000, 0.15vmin 0.15vmin 0.12vmin 0.01vmin rgba(255, 255, 255, 0.2) inset;}
+      form:hover label{color: rgba(255, 255, 255, 0.38);}
+      form:hover input[type="submit"]{box-shadow: -0.05vmin -0.05vmin 0.02vmin 0.08vmin rgba(0, 0, 0, 0.38), 0vmin 0vmin 0.02vmin 0.03vmin rgba(255, 255, 255, 0.62) inset; color: rgba(255, 255, 255, 1);}
+      table{width: 80vmin;text-align: center; box-shadow: 0 0 0px 1.4vmin #FFFFFF; opacity: 0;margin-top: 1vmin;}
+      table tr td{min-width: 40vmin;}
+      table tr:first-child{background-color: rgba(255, 255, 255, 1);color: #141414;}
+      h2{opacity: 0.2;}
+      h2:hover{opacity: 1;cursor: help;}
+      h2:hover + table{opacity: 1;}
+      a{align-items: center;justify-content: space-around;width: 2vmin;height: 2vmin; display: flex;padding: 1vmin 1vmin 0 0 ; margin: 0.3vmin; border-radius: 0.34vmin;font-weight: 600; color: #00aaff;}
+      a:any-link{text-decoration: none;}
+      a:not(.♥):hover{color: #141414;font-weight: 400;}
+      a.♥{opacity: 0.321; color: #141414;}
+
+      @media screen and (max-width:50vh) {
+        html{font-size: 3.21vmax;} 
+        form{height: 3vmax;}
+        form input{height: 2vmax;}
+        form input[type="submit"]{height: 2vmax;width: 2vmax; font-size: 1.7vmax;color: white;}
+      }
+
+      @font-face{font-family:'Noton';src:url('http://rohhthone.com/noton/noton-regular_v1.0.2.ttf');}
+    </style>
+    <header>
+      <a class="♥"> 1</a><a href="../file/" title="File manager">2</a><a href="../note/" title="Note manager">3</a><a  href="../sketch/" title="Sketch manager">4</a><a href="../time/" title="Time manager">5</a></div><div><a href="../admin/" title="Admin interface">A</a>
+    </header>
+    <h1>Manager</h1>
+    <form action="#" method="post"><input type="number" name="ID" value="..." hidden readonly><label for="X1">Check e-mails</label><input type="submit" value="x" id="X1"></form>
+    <form action="#" method="post"><input type="number" name="ID" value="..." hidden readonly><label for="X2">Marketing event</label><input type="submit" value="x" id="X2"></form>
+    <form action="#" method="post"><input type="number" name="ID" value="..." hidden readonly><label for="X2">Actions</label><input type="submit" value="x" id="X2"></form>
+    <h2>i</h2>
+    <table><tr><td>DATE</td><td>TITLE</td></tr><tr><td>01.01.1970</td><td>Lorem Ipsum</td></tr><tr><td>01.01.1970</td><td>Lorem Ipsum</td></tr></table>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>manager</title>
+  </head>
+  <body>
+    <style>
+      *{padding: 0; margin: 0;}
+      html{background-color: #141414;font-family: 'Noton';font-size: 2.31vmax; color: #FFFFFF; letter-spacing: 0.23vmax;}
+      body{display: flex;flex-direction: column;justify-content: space-around;align-items: center;}
+      form{display: flex; align-items: center; justify-content: space-between; background-color: rgba(255, 255, 255, 0.38); padding:0.7vmin 1.4vmin 0.5vmin 1.4vmin; margin: 0.51vmin; border-radius: 0.43vmin; width: 80vmin; height: 3vmin; box-shadow: -0.15vmin -0.15vmin 0.25vmin 0.174vmin #000000;}
+      header{display: flex;width: 80vmin;padding:0.7vmin 1.4vmin 0.5vmin 1.4vmin; background-color: rgba(255, 255, 255, 0.38);border-radius: 0 0 0.34vmin 0.34vmin;box-shadow: -0.15vmin -0.15vmin 0.25vmin 0.174vmin #000000;}
+      form input[type="text"]{background-color: rgba(255, 255, 255, 0.1);width: 100%;margin: 0 1.4vmin 0 0;border:none; box-shadow: -0.1vmin -0.1vmin 0.2vmin 0.05vmin rgba(0, 0, 0, 0.38);}
+      form input[type="submit"]{display: flex; align-items: center; justify-content: space-around; background-color: #141414; width: 2vmin;height: 2vmin; color: white; border: none; border-radius: 0.215vmin;color: rgba(255, 255, 255, 0.2); box-shadow:0vmin 0vmin 0.1vmin 0.1vmin #000000 inset;cursor: pointer;}
+      form:hover{box-shadow: -0.15vmin -0.15vmin 0.15vmin 0.074vmin #000000, 0.15vmin 0.15vmin 0.12vmin 0.01vmin rgba(255, 255, 255, 0.2) inset;}
+      form:hover input[type="submit"]{box-shadow: -0.05vmin -0.05vmin 0.02vmin 0.08vmin rgba(0, 0, 0, 0.38), 0vmin 0vmin 0.02vmin 0.03vmin rgba(255, 255, 255, 0.62) inset; color: rgba(255, 255, 255, 1);}
+      a{align-items: center;justify-content: space-around;width: 3vmin;height: 3vmin; display: flex;padding: 1vmin 1vmin 0 0 ; margin: 0.3vmin; border-radius: 0.34vmin;font-weight: 600;}
+      a:any-link{text-decoration: none;}
+      a:not(.♥):hover{color: #141414;font-weight: 400;}
+      a.♥{opacity: 0.321; color: #141414;}
+
+      @media screen and (max-width:50vh) {
+        html{font-size: 3.21vmax;} 
+        form{height: 3vmax;}
+        form input{height: 2vmax;}
+        form input[type="submit"]{height: 2vmax;width: 2vmax; font-size: 1.7vmax;color: white;}
+      }
+      @font-face{font-family:'Noton';src:url('http://rohhthone.com/noton/noton-regular_v1.0.2.ttf');}
+    </style>
+    <header>
+    <a href="../"> 1</a>
+    <a class="♥"> 1A</a>
+    </header>
+    <h1>Admin</h1>
+    <h2>Add a task</h2>
+    <form action="#" method="post"><input type="text" name="title" title="text"><input type="submit" value=">"></form>
+  </body>
+</html>
